@@ -2,7 +2,7 @@ Here is the English version of the `README.md` for your BeamNG vehicle control a
 
 ---
 
-# BeamNG Autonomous Vehicle Control and Monitoring System
+#DL4AVs research demo
 
 This project is built on [BeamNG.tech](https://beamng.tech/) and the [beamngpy](https://github.com/BeamNG/BeamNGpy) Python API. It provides a complete pipeline from launching the simulator and loading a scenario, to collecting trajectory data and controlling a vehicle to follow that trajectory with monitoring and takeover capabilities.
 
@@ -10,7 +10,7 @@ This project is built on [BeamNG.tech](https://beamng.tech/) and the [beamngpy](
 
 ```
 .
-├── 0_0_open_beamng.py         # Launch BeamNG instance (Italy map)
+├── 0_0_open_beamng.py         # Launch BeamNG instance
 ├── 1_0_launch_scenerio.py     # Load scenario and vehicle, stream vehicle state
 ├── 1_1_collect_traj_live.py   # Live trajectory recording to JSON
 ├── 3_monitor_and_takeover.py  # Autonomous control and manual takeover
